@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 
 <head>
     <meta charset="UTF-8">
@@ -34,7 +34,34 @@
 </head>
 
 <body>
-
+    <header>
+        <!-- navbar  -->
+        <nav class="bg-[#FFF9F4] font-sora">
+            <div class="px-4 py-2 max-w-6xl mx-auto flex justify-between items-center">
+                <!-- start  -->
+                 <div class="flex items-center">
+                    <img src="./assets/logo-header.png" alt="" class="w-4/5"><h3 class="text-2xl font-semibold hidden md:block">Browse<span class="text-warning">4</span>Pets</h3>
+                 </div>
+                 <!-- center  -->
+                  <ul class="hidden md:flex items-center gap-4">
+                    <li><a href="#" class="">Find a pet</a></li>
+                    <li><a href="#" class="">Breeds</a></li>
+                    <li><a href="#" class="">contact us</a></li>
+                  </ul>
+                  <!-- end  -->
+                   <div class="hidden md:flex gap-3 items-center">
+                    <i class='bx bx-bell text-2xl '></i>
+                    <i class='bx bx-search text-2xl '></i>
+                    <button class="btn btn-outline btn-warning text-black">Login</button>
+                    <button class="btn btn-warning font-bold">Register</button>
+                   </div>
+                 <!-- mobile icon  -->
+                  <div class="md:hidden">
+                    <i class='bx bx-menu-alt-right text-3xl font-bold'></i>
+                  </div>
+            </div>
+        </nav>
+    </header>
 </body>
 
 </html>
