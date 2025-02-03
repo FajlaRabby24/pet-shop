@@ -21,14 +21,14 @@
             theme: {
                 extend: {
                     colors: {
-
+                        card_bg: '#F9DF8A'
                     },
                     fontFamily: {
                         'sora': ["Sora", "serif"],
                         'adlam': ["ADLaM Display", "serif"]
                     },
                     backgroundImage: {
-                        banner: 'url("./assets/cat-big-removebg.png")'
+                        banner: 'url("./assets/cat-big-removebg.png")',
                     }
                 }
             }
@@ -67,17 +67,82 @@
             </div>
         </nav>
         <!-- hero section  -->
-        <div class="max-w-6xl mx-auto px-4 pb-36 md:pb-64 lg:pb-80 pt-3  bg-banner bg-contain lg:bg-cover lg:bg-right-bottom bg-no-repeat bg-bottom ">
+        <div
+            class="max-w-6xl mx-auto px-4 pb-36 md:pb-64 lg:pb-80 pt-3  bg-banner bg-contain lg:bg-cover lg:bg-right-bottom bg-no-repeat bg-bottom ">
             <!-- content -->
             <div class="max-w-xl pt-2 lg:pt-8">
                 <h1 class="font-adlam text-3xl lg:text-5xl">Pamper Your Pet, <br>Because They Deserve <br> the Bes</h1>
-                <p class="text-[#111111] mt-3 mb-4 lg:text-xl">Discover a world of treats, toys, and essentials handpicked for your
+                <p class="text-[#111111] mt-3 mb-4 lg:text-xl">Discover a world of treats, toys, and essentials
+                    handpicked for your
                     furry friends. Shop now and make tails wag with joy!</p>
                 <button class="btn btn-warning font-bold lg:text-xl">Find a pet</button>
             </div>
         </div>
 
     </header>
+    <main>
+        <!-- categories section  -->
+        <section class="max-w-6xl mx-auto mt-24 px-4">
+            <h1 class="font-adlam text-2xl mb-8">Browse By Categories</h1>
+            <!-- container -->
+            <div class="grid gap-2 grid-cols-2 md:grid-cols-3 lg:grid-cols-6">
+                <!-- card  -->
+                <div class="bg-card_bg  rounded-lg py-7">
+                    <img src="./assets/dog-cartoon.png" alt="dog-cartoon" class="bg-white p-5 rounded-full mx-auto">
+                    <!-- text content  -->
+                     <div class="text-center">
+                        <h3 class="font-bold text-lg mb-2 mt-4">Dog</h3>
+                        <p class="text-sm font-medium">3 items</p>
+                     </div>
+                </div>
+                <!-- card  -->
+                <div class="bg-card_bg  rounded-lg py-7">
+                    <img src="./assets/fish-cartoon.png" alt="dog-cartoon" class="bg-white p-5 rounded-full mx-auto">
+                    <!-- text content  -->
+                     <div class="text-center">
+                        <h3 class="font-bold text-lg mb-2 mt-4">Fish</h3>
+                        <p class="text-sm font-medium">3 items</p>
+                     </div>
+                </div>
+                <!-- card  -->
+                <div class="bg-card_bg  rounded-lg py-7">
+                    <img src="./assets/cat-cartoon.png" alt="dog-cartoon" class="bg-white p-5 rounded-full mx-auto">
+                    <!-- text content  -->
+                     <div class="text-center">
+                        <h3 class="font-bold text-lg mb-2 mt-4">Cat</h3>
+                        <p class="text-sm font-medium">3 items</p>
+                     </div>
+                </div>
+                <!-- card  -->
+                <div class="bg-card_bg  rounded-lg py-7">
+                    <img src="./assets/bird-cartoon.png" alt="dog-cartoon" class="bg-white p-5 rounded-full mx-auto">
+                    <!-- text content  -->
+                     <div class="text-center">
+                        <h3 class="font-bold text-lg mb-2 mt-4">Birds</h3>
+                        <p class="text-sm font-medium">3 items</p>
+                     </div>
+                </div>
+                <!-- card  -->
+                <div class="bg-card_bg  rounded-lg py-7">
+                    <img src="./assets/mouse-cartoon.png" alt="dog-cartoon" class="bg-white p-5 rounded-full mx-auto">
+                    <!-- text content  -->
+                     <div class="text-center">
+                        <h3 class="font-bold text-lg mb-2 mt-4">Small pet</h3>
+                        <p class="text-sm font-medium">3 items</p>
+                     </div>
+                </div>
+                <!-- card  -->
+                <div class="bg-card_bg  rounded-lg py-7">
+                    <img src="./assets/rabbit-cartoon.png" alt="dog-cartoon" class="bg-white p-5 rounded-full mx-auto">
+                    <!-- text content  -->
+                     <div class="text-center">
+                        <h3 class="font-bold text-lg mb-2 mt-4">Rabit</h3>
+                        <p class="text-sm font-medium">3 items</p>
+                     </div>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 
 </html>
