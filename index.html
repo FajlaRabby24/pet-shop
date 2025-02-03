@@ -21,11 +21,14 @@
             theme: {
                 extend: {
                     colors: {
-                        clifford: '#da373d',
+
                     },
                     fontFamily: {
                         'sora': ["Sora", "serif"],
                         'adlam': ["ADLaM Display", "serif"]
+                    },
+                    backgroundImage: {
+                        banner: 'url("./assets/cat-big-removebg.png")'
                     }
                 }
             }
@@ -33,34 +36,47 @@
     </script>
 </head>
 
-<body>
+<body class="font-sora">
     <header>
         <!-- navbar  -->
-        <nav class="bg-[#FFF9F4] font-sora">
+        <nav class="bg-[#FFF9F4] font-sora border-2 md:border-0">
             <div class="px-4 py-2 max-w-6xl mx-auto flex justify-between items-center">
                 <!-- start  -->
-                 <div class="flex items-center">
-                    <img src="./assets/logo-header.png" alt="" class="w-4/5"><h3 class="text-2xl font-semibold hidden md:block">Browse<span class="text-warning">4</span>Pets</h3>
-                 </div>
-                 <!-- center  -->
-                  <ul class="hidden md:flex items-center gap-4">
+                <div class="flex items-center">
+                    <img src="./assets/logo-header.png" alt="" class="w-4/5">
+                    <h3 class="text-2xl font-semibold hidden md:block">Browse<span class="text-warning">4</span>Pets
+                    </h3>
+                </div>
+                <!-- center  -->
+                <ul class="hidden md:flex items-center gap-6">
                     <li><a href="#" class="">Find a pet</a></li>
                     <li><a href="#" class="">Breeds</a></li>
                     <li><a href="#" class="">contact us</a></li>
-                  </ul>
-                  <!-- end  -->
-                   <div class="hidden md:flex gap-3 items-center">
+                </ul>
+                <!-- end  -->
+                <div class="hidden md:flex gap-3 items-center">
                     <i class='bx bx-bell text-2xl '></i>
                     <i class='bx bx-search text-2xl '></i>
                     <button class="btn btn-outline btn-warning text-black">Login</button>
                     <button class="btn btn-warning font-bold">Register</button>
-                   </div>
-                 <!-- mobile icon  -->
-                  <div class="md:hidden">
+                </div>
+                <!-- mobile icon  -->
+                <div class="md:hidden">
                     <i class='bx bx-menu-alt-right text-3xl font-bold'></i>
-                  </div>
+                </div>
             </div>
         </nav>
+        <!-- hero section  -->
+        <div class="max-w-6xl mx-auto px-4 pb-36 md:pb-64 lg:pb-80 pt-3  bg-banner bg-contain lg:bg-cover lg:bg-right-bottom bg-no-repeat bg-bottom ">
+            <!-- content -->
+            <div class="max-w-xl pt-2 lg:pt-8">
+                <h1 class="font-adlam text-3xl lg:text-5xl">Pamper Your Pet, <br>Because They Deserve <br> the Bes</h1>
+                <p class="text-[#111111] mt-3 mb-4 lg:text-xl">Discover a world of treats, toys, and essentials handpicked for your
+                    furry friends. Shop now and make tails wag with joy!</p>
+                <button class="btn btn-warning font-bold lg:text-xl">Find a pet</button>
+            </div>
+        </div>
+
     </header>
 </body>
 
