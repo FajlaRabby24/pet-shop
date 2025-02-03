@@ -21,7 +21,8 @@
             theme: {
                 extend: {
                     colors: {
-                        card_bg: '#F9DF8A'
+                        card_bg: '#F9DF8A',
+                        secondarybg: '#FFF9F4'
                     },
                     fontFamily: {
                         'sora': ["Sora", "serif"],
@@ -29,6 +30,7 @@
                     },
                     backgroundImage: {
                         banner: 'url("./assets/cat-big-removebg.png")',
+                        productCardImage: 'url("./assets/cute-pet-small.png")'
                     }
                 }
             }
@@ -90,58 +92,159 @@
                 <div class="bg-card_bg  rounded-lg py-7">
                     <img src="./assets/dog-cartoon.png" alt="dog-cartoon" class="bg-white p-5 rounded-full mx-auto">
                     <!-- text content  -->
-                     <div class="text-center">
+                    <div class="text-center">
                         <h3 class="font-bold text-lg mb-2 mt-4">Dog</h3>
                         <p class="text-sm font-medium">3 items</p>
-                     </div>
+                    </div>
                 </div>
                 <!-- card  -->
                 <div class="bg-card_bg  rounded-lg py-7">
                     <img src="./assets/fish-cartoon.png" alt="dog-cartoon" class="bg-white p-5 rounded-full mx-auto">
                     <!-- text content  -->
-                     <div class="text-center">
+                    <div class="text-center">
                         <h3 class="font-bold text-lg mb-2 mt-4">Fish</h3>
                         <p class="text-sm font-medium">3 items</p>
-                     </div>
+                    </div>
                 </div>
                 <!-- card  -->
                 <div class="bg-card_bg  rounded-lg py-7">
                     <img src="./assets/cat-cartoon.png" alt="dog-cartoon" class="bg-white p-5 rounded-full mx-auto">
                     <!-- text content  -->
-                     <div class="text-center">
+                    <div class="text-center">
                         <h3 class="font-bold text-lg mb-2 mt-4">Cat</h3>
                         <p class="text-sm font-medium">3 items</p>
-                     </div>
+                    </div>
                 </div>
                 <!-- card  -->
                 <div class="bg-card_bg  rounded-lg py-7">
                     <img src="./assets/bird-cartoon.png" alt="dog-cartoon" class="bg-white p-5 rounded-full mx-auto">
                     <!-- text content  -->
-                     <div class="text-center">
+                    <div class="text-center">
                         <h3 class="font-bold text-lg mb-2 mt-4">Birds</h3>
                         <p class="text-sm font-medium">3 items</p>
-                     </div>
+                    </div>
                 </div>
                 <!-- card  -->
                 <div class="bg-card_bg  rounded-lg py-7">
                     <img src="./assets/mouse-cartoon.png" alt="dog-cartoon" class="bg-white p-5 rounded-full mx-auto">
                     <!-- text content  -->
-                     <div class="text-center">
+                    <div class="text-center">
                         <h3 class="font-bold text-lg mb-2 mt-4">Small pet</h3>
                         <p class="text-sm font-medium">3 items</p>
-                     </div>
+                    </div>
                 </div>
                 <!-- card  -->
                 <div class="bg-card_bg  rounded-lg py-7">
                     <img src="./assets/rabbit-cartoon.png" alt="dog-cartoon" class="bg-white p-5 rounded-full mx-auto">
                     <!-- text content  -->
-                     <div class="text-center">
+                    <div class="text-center">
                         <h3 class="font-bold text-lg mb-2 mt-4">Rabit</h3>
                         <p class="text-sm font-medium">3 items</p>
-                     </div>
+                    </div>
                 </div>
             </div>
         </section>
+        <!-- populer products  -->
+         <section class="md:bg-secondarybg  mt-24  py-10">
+             <div class="max-w-6xl mx-auto px-4 ">
+                 <h1 class="font-adlam text-2xl mb-8">Populer products</h1>
+                 <!-- container -->
+                 <div class="flex flex-col md:flex-row gap-4  md:items-center">
+                     <!-- big card image  -->
+                     <div class="pb-44 px-6  pt-6 md:w-2/5 rounded-md bg-card_bg bg-productCardImage bg-no-repeat bg-right-bottom">
+                         <h1 class="text-3xl font-semibold mb-2">T-shirt For Dogs</h1>
+                         <p class="text-[#111] mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam,
+                             voluptates!</p>
+                         <button class="btn bg-white">Shop Now</button>
+                     </div>
+                     <!-- small card container  -->
+                      <div class="grid gap-2 grid-cols-2 lg:grid-cols-3 md:w-3/5">
+                        <!-- card  -->
+                         <div class="bg-white px-3 gap-3 py-2 flex items-center border rounded-md">
+                            <img class="bg-secondarybg p-1 rounded-lg " src="./assets/pet-couch.png" alt="pet-couch">
+                            <div>
+                                <p class="text-xs font-semibold flex items-center"><span class="text-warning mr-2"><i class='bx bxs-star text-base'></i></span>4.5</p>
+                                <h4 class="text-sm font-bold my-1">Pet Bed</h4>
+                                <p class="text-xs font-semibold">$39.99</p>
+                            </div>
+                         </div>
+                        <!-- card  -->
+                         <div class="bg-white px-3 gap-3 py-2 flex items-center border rounded-md">
+                            <img class="bg-secondarybg p-1 rounded-lg " src="./assets/pet-couch.png" alt="pet-couch">
+                            <div>
+                                <p class="text-xs font-semibold flex items-center"><span class="text-warning mr-2"><i class='bx bxs-star text-base'></i></span>4.5</p>
+                                <h4 class="text-sm font-bold my-1">Pet Bed</h4>
+                                <p class="text-xs font-semibold">$39.99</p>
+                            </div>
+                         </div>
+                        <!-- card  -->
+                         <div class="bg-white px-3 gap-3 py-2 flex items-center border rounded-md">
+                            <img class="bg-secondarybg p-1 rounded-lg " src="./assets/pet-couch.png" alt="pet-couch">
+                            <div>
+                                <p class="text-xs font-semibold flex items-center"><span class="text-warning mr-2"><i class='bx bxs-star text-base'></i></span>4.5</p>
+                                <h4 class="text-sm font-bold my-1">Pet Bed</h4>
+                                <p class="text-xs font-semibold">$39.99</p>
+                            </div>
+                         </div>
+                        <!-- card  -->
+                         <div class="bg-white px-3 gap-3 py-2 flex items-center border rounded-md">
+                            <img class="bg-secondarybg p-1 rounded-lg " src="./assets/pet-couch.png" alt="pet-couch">
+                            <div>
+                                <p class="text-xs font-semibold flex items-center"><span class="text-warning mr-2"><i class='bx bxs-star text-base'></i></span>4.5</p>
+                                <h4 class="text-sm font-bold my-1">Pet Bed</h4>
+                                <p class="text-xs font-semibold">$39.99</p>
+                            </div>
+                         </div>
+                        <!-- card  -->
+                         <div class="bg-white px-3 gap-3 py-2 flex items-center border rounded-md">
+                            <img class="bg-secondarybg p-1 rounded-lg " src="./assets/pet-couch.png" alt="pet-couch">
+                            <div>
+                                <p class="text-xs font-semibold flex items-center"><span class="text-warning mr-2"><i class='bx bxs-star text-base'></i></span>4.5</p>
+                                <h4 class="text-sm font-bold my-1">Pet Bed</h4>
+                                <p class="text-xs font-semibold">$39.99</p>
+                            </div>
+                         </div>
+                        <!-- card  -->
+                         <div class="bg-white px-3 gap-3 py-2 flex items-center border rounded-md">
+                            <img class="bg-secondarybg p-1 rounded-lg " src="./assets/pet-couch.png" alt="pet-couch">
+                            <div>
+                                <p class="text-xs font-semibold flex items-center"><span class="text-warning mr-2"><i class='bx bxs-star text-base'></i></span>4.5</p>
+                                <h4 class="text-sm font-bold my-1">Pet Bed</h4>
+                                <p class="text-xs font-semibold">$39.99</p>
+                            </div>
+                         </div>
+                        <!-- card  -->
+                         <div class="bg-white px-3 gap-3 py-2 flex items-center border rounded-md">
+                            <img class="bg-secondarybg p-1 rounded-lg " src="./assets/pet-couch.png" alt="pet-couch">
+                            <div>
+                                <p class="text-xs font-semibold flex items-center"><span class="text-warning mr-2"><i class='bx bxs-star text-base'></i></span>4.5</p>
+                                <h4 class="text-sm font-bold my-1">Pet Bed</h4>
+                                <p class="text-xs font-semibold">$39.99</p>
+                            </div>
+                         </div>
+                        <!-- card  -->
+                         <div class="bg-white px-3 gap-3 py-2 flex items-center border rounded-md">
+                            <img class="bg-secondarybg p-1 rounded-lg " src="./assets/pet-couch.png" alt="pet-couch">
+                            <div>
+                                <p class="text-xs font-semibold flex items-center"><span class="text-warning mr-2"><i class='bx bxs-star text-base'></i></span>4.5</p>
+                                <h4 class="text-sm font-bold my-1">Pet Bed</h4>
+                                <p class="text-xs font-semibold">$39.99</p>
+                            </div>
+                         </div>
+                        <!-- card  -->
+                         <div class="hidden bg-white px-3 gap-3 py-2 lg:inline-flex items-center border rounded-md ">
+                            <img class="bg-secondarybg p-1 rounded-lg " src="./assets/pet-couch.png" alt="pet-couch">
+                            <div>
+                                <p class="text-xs font-semibold flex items-center"><span class="text-warning mr-2"><i class='bx bxs-star text-base'></i></span>4.5</p>
+                                <h4 class="text-sm font-bold my-1">Pet Bed</h4>
+                                <p class="text-xs font-semibold">$39.99</p>
+                            </div>
+                         </div>
+                      </div>
+                 </div>
+             </div>
+
+         </section>
     </main>
 </body>
 
